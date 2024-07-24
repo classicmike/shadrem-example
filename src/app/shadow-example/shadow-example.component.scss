@@ -1,0 +1,15 @@
+:host {
+  all: initial;
+
+  --shadrem: 1em;
+}
+
+@import "./bootstrap.scss";
+
+:host {
+  @extend :root;
+}
+
+.shadow-example-body {
+  @extend body;
+}
